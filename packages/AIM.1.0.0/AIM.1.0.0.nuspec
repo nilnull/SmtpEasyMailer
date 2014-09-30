@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AIM</id>
+    <version>1.0.0</version>
+    <title>Aegis Implicit Mail</title>
+    <authors>Araz Farhang Dareshuri</authors>
+    <owners>Araz Farhang Dareshuri</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>https://sourceforge.net/projects/netimplicitssl/</projectUrl>
+    <iconUrl>https://c.fsdn.com/allura/p/netimplicitssl/icon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Aegis Implicit Mail is a free and open source library which is designed to provide fast and developer friendly API to send emails using SMTP ports. 
+AIM Supports :
+* None Ssl Mails
+* Implicit Ssl Mails
+* Explicit Ssl Mails
+* Smtp Connection test
+* Detect Ssl type of mail server
+* Attachments for MIME and S/MIME message.
+* In-line attachment and separate file attachment
+* All content types and mimes
+* SMIME , Signed and Encrypted mails
+In an integrated way  
+
+Sadly, Microsoft.Net.Mail Ssl Mails does not support Implicit Ssl Mail and it is still used by many servers, including port 465 of Gmail here AIM comes to make a readable and fast alternative to send your smtp mails.</description>
+    <summary>Send Mails to SSL and TLS (Implicit and Explicit) Mail servers using the same code you developed for System.Net.Mail.</summary>
+    <releaseNotes>S/MIME support, detect connection type and test connection has been added</releaseNotes>
+    <copyright>Copyright (c) 2014 Araz Farhang Dareshuri</copyright>
+    <language>en-US</language>
+    <tags>Aim AegisImplicitMail SMTP Implicit Mail Server Explicit Mail Ssl TLS email send mime  smime S/mime</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="AegisImplicitMail" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
